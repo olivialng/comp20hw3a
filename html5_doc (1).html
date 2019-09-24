@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML 5 Doc</title>
+	<style>
+		body {
+			background-color: #878787;
+		}
+		body,html {
+			padding: 0; 
+			margin: 0
+		}
+		header h1 { 
+			text-align:center;
+			font-family: arial, helvetica;
+			font-size: 30px;
+		}
+		section {
+			padding: auto auto auto auto;
+		}
+		h3 {
+			text-align: center;
+			font-family: arial, helvetica;
+			font-size: 32px;
+		}
+		header {
+			background-color: #878787;
+			color: #fff; 
+			padding: 1px 1px 1px 1px; 
+			width: 100%; 
+			box-sizing: border-box;
+		}
+		
+		nav { 
+			background-color: #AD3DCB; 
+			padding: 10px 0;
+		}
+		nav a {
+			color: #000; 
+			font-size: 25px; 
+			text-decoration: none;
+			padding: 10px 70px 10px 70px;
+		}
+		nav ul {
+			list-style-type: none; 
+		}
+		nav ul li {
+			display: inline-block;
+		}
+		article {
+			padding: 10px 10px 10px 10px;
+			width: 100%;
+			height: 100%;
+			position: relative;
+		}
+		.sidenav {
+		  height: 80vh; /* Full-height: remove this if you want "auto" height */
+		  width: 22%; /* Set the width of the sidebar */
+		  position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+		  z-index: 1; /* Stay on top */
+		  top: 10px;
+		  right: 0;
+		  font-size: 32px;
+		  background-color: #AD3DCB; /* Black */
+		  overflow-x: hidden; /* Disable horizontal scroll */
+		  padding-top: 20px;
+		  padding-left:5px;
+		}
+		strong {
+			font-size: 30px;
+			font-weight: bold;
+		}
+		aside {
+			padding: 2px;
+			background-color: #fff;
+			width: 75%;
+			height:80vh;
+			display:block;
+			position:relative;
+		}
+	</style>
+</head>
+<body>
+	<header>
+	<h1>Header</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Our Team</a></li>
+			<li><a href="#">Projects</a></li>
+			<li><a href="#">Contact</a></li>
+			<li>
+				<form>
+					<input type='text' name='search' placeholder="Search Query">
+					<input type = 'submit' value = "Go!">
+				</form>
+			</li>
+		</ul>
+	</nav>
+	<article> 
+	<aside>
+		<section>
+		<h3> Article Heading </h3>
+		<p>Straw is an agricultural byproduct consisting of the dry stalks of cereal plants after the grain and chaff have been removed. It makes up about half of the yield[clarification needed] of cereal crops such as barley, oats, rice, rye and wheat. It has a number of different uses, including fuel, livestock bedding and fodder, thatching and basket making.</p>
+		<p><strong>Subheading</strong></p>
+		<p>The use of straw in large-scale biomass power plants is becoming mainstream in the EU, with several facilities already online. The straw is either used directly in the form of bales, or densified into pellets which allows for the feedstock to be transported over longer distances. Finally, torrefaction of straw with pelletisation is gaining attention, because it increases the energy density of the resource, making it possible to transport it still further. </p>
+		<p><strong>Second Subheading</strong></p>
+		<p>Straw is used in cucumber houses and for mushroom growing. In Japan, certain trees are wrapped with straw to protect them from the effects of a hard winter as well as to use them as a trap for parasite insects.
+		It is also used in ponds to reduce algae by changing the nutrient ratios in the water.
+		The soil under strawberries is covered with straw to protect the ripe berries from dirt, and straw is also used to cover the plants during winter to prevent the cold from killing them. Straw also makes an excellent mulch. Straw is resistant to being crushed and therefore makes a good packing material. A company in France makes a straw mat sealed in thin plastic sheets. Straw envelopes for wine bottles have become rarer, but are still to be found at some wine merchants. Wheat straw is also used in compostable food packaging such as compostable plates. Packaging made from wheat straw can be certified compostable and will biodegrade in commercial composting environment.[10]</p>
+		</section>
+	</aside>
+	<div class="sidenav">
+	  <h3> Related </h3>
+	  <ul>
+	  	<li><a href="#">About</a></li>
+	  	<li><a href="#">Services</a></li>
+	  	<li><a href="#">Clients</a></li>
+	 	<li><a href="#">Contact</a></li>
+	  </ul>
+	</div>
+	</article>
+</body>
+</html>
+
